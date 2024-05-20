@@ -1,0 +1,17 @@
+.header {
+    width : 358px;
+    height: 60px;
+    background-color: #806BDC;
+}
+a {
+    width: 358px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+h2 {
+    color: white;
+}
