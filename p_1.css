@@ -1,22 +1,88 @@
-.header {
-    width : 358px;
-    height: 60px;
-    background-color: #806BDC;
-}
-a {
-    width: 358px;
-    height: 28px;
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-}
-h2 {
-    color: white;
+* {
+    margin : 0;
+    padding : 0;
     font-family: Arial, sans-serif;
 }
 
-table,td,th{
-    width: 358px;
-    border-collapse : collapse;
-    border: 2px solid black;
+
+
+.header {
+    height: 70px;
+    background-color: #FB5607;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 550;
+}
+h2 {
+    color: white;
+}
+
+.items {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#item-table {
+    width: 100%;
+    text-align: center;
+}
+
+.Item-img {
+    height: 100px;
+}
+
+.Item-tag {
+    font-size: 20px;
+}
+
+.Item-tag:hover {
+    color:  #FB5607;
+}
+
+
+.Shopping-container {
+    background-color: lightgrey;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#shopping-time-img {
+    margin-top : 30px;
+    width : 90vw;
+    height: 60vh;
+}
+
+.Sales-table { 
+    width: 90vw;
+    margin : auto;
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding : 12px;
+    text-align : center;
+}
+
+.Sales-table-head {
+    background-color: #006d77;
+}
+
+
+.Information {
+    width: 92vw;
+    margin: 20px;
+    font-size: 11px;
+    color: black;
+    list-style-position: inside;
+}
+
+footer {
+    height: 50px;
+    padding-top: 28px;
+    background-color: black;
+    color: white;
+    text-align: center;
 }
